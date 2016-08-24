@@ -1,0 +1,10 @@
+@import '../utilities/vars';
+
+@mixin base() {
+    padding: 20px;
+    background-color: $background;
+
+    @media screen and (min-width: 768px) {
+        padding: 10px 100px;
+    }
+}

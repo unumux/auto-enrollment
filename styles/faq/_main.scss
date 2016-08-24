@@ -1,0 +1,40 @@
+@import '../utilities/vars';
+
+.faq {
+
+    padding: 20px;
+
+    &__heading {
+        @include subheading();
+        color: $sea-green;
+    }
+
+    &-section {
+        border: 2px solid #05a5ae;;
+        margin-bottom: 30px;
+    }
+
+    &__q-container {
+        background-color: $sea-green-lighter;
+        padding: 10px;
+    }
+
+    &__letter {
+        font-size: 25px;
+        font-weight: bold;
+        color: $sea-green-darker;
+        padding-right: 10px;
+    }
+
+    &__q {
+        color: $font-color-gray;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    &__a-container {
+        padding: 10px;
+    }
+
+
+}

@@ -1,0 +1,34 @@
+@import './utilities/vars';
+@import './utilities/mixins';
+@import 'header';
+@import 'hero';
+@import 'statistics/index';
+@import 'obstacles/index';
+@import 'main';
+@import './legislation/main';
+@import './faq/main';
+@import './contact/contact';
+@import './footer/footer';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #111;
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+* > :first-child {
+    margin-top: 0;
+}
+
+* > :last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}

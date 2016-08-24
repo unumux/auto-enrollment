@@ -1,0 +1,58 @@
+.contact {
+    background-color: $background;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    &__primary {
+        @include subheading();
+
+        @media screen and (min-width: 768px) {
+            font-size: 40px;
+        }
+    }
+
+    &__button {
+        background-color: $orient;
+        padding: 20px;
+        border-radius: 3px;
+        width: 275px;
+        cursor: pointer;
+        border: none;
+
+        @media screen and (min-width: 768px) {
+            width: 665px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+
+        @media screen and (min-width: 768px) {
+            // font-size: 36px;
+            display: none;
+            &::after {
+                display: block;
+                font-family: Ubuntu;
+                content: attr(data-content);
+                visibility: visible;
+
+            }
+        }
+    }
+}
+
+
+        // @media screen and (min-width: 768px) {
+        //     width: 665px;
+        //     font-size: 36px;
+        //     visibility: hidden;
+        //     &::after {
+        //         content: attr(data-content);
+        //     }

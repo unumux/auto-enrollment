@@ -1,0 +1,10 @@
+&__para {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $font-color-gray;
+
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+    }
+}

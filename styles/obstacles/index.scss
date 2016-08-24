@@ -1,0 +1,11 @@
+@import 'base';
+
+.obstacles {
+    @include base();
+    @import 'heading';
+    @import 'container';
+    @import 'img-container';
+    @import 'subheading';
+    @import 'section';
+    @import 'para';   
+}

@@ -1,0 +1,28 @@
+.footer {
+    padding: 40px 20px;
+
+    &__info {
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+        color: $font-color-gray;
+
+        &:last-of-type {
+            text-transform: uppercase;
+        }
+
+        &:nth-child(8) {
+            font-style: normal;
+        }
+
+        &:nth-child(9) {
+            font-style: normal;
+        }
+
+        &:last-of-type {
+            text-transform: uppercase;
+            font-style: normal;
+        }
+    }
+
+}

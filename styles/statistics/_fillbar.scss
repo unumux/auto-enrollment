@@ -1,0 +1,14 @@
+&__fillbar {
+
+    .statistics__section:nth-child(1) & {
+        @include fillbar(90%, $pumpkin, $pumpkin-lighter);
+    }
+
+    .statistics__section:nth-child(2) & {
+        @include fillbar(56%, $leaf, $leaf-lighter);
+    }
+
+    .statistics__section:nth-child(3) & {
+        @include fillbar(26%, $ocean, $ocean-lighter);
+    }
+}

@@ -1,0 +1,10 @@
+&__subheading {
+    font-size: 28px;
+    line-height: 1.4;
+    color: $font-color-gray;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,16 @@
+&__section {
+    @include one-of-three();
+    // padding: 20px;
+
+    &:nth-child(1) {
+        color: $pumpkin;
+    }
+    
+    &:nth-child(2) {
+        color: $leaf;
+    }
+
+    &:nth-child(3) {
+        color: $ocean;
+    }
+}
