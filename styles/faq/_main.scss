@@ -24,12 +24,14 @@
         font-weight: bold;
         color: $sea-green-darker;
         padding-right: 10px;
+        width: 20%;
     }
 
     &__q {
         color: $font-color-gray;
         font-size: 20px;
         line-height: 1.4;
+        width: 80%;
     }
 
     &__a-container {
