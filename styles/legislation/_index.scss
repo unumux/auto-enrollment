@@ -1,0 +1,11 @@
+@import '../utilities/mixins';
+
+.legislation {
+    @import 'hero';
+    @import 'heading';
+    @import 'info';
+    @import 'container';
+    @import 'section';
+    @import 'subheading';
+    @import 'para';
+}

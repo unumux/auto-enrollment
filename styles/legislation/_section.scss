@@ -1,0 +1,19 @@
+.legislation__section--one-third, .legislation__section--one-third-order {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: 33.3333%;
+        &-order {
+            order: 2;
+        }
+
+    }
+}
+
+.legislation__section--two-thirds {
+
+    @media screen and (min-width: 768px) {
+        width: 66.7%;
+        padding-right: 20px;
+    }
+}

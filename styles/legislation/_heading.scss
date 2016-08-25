@@ -1,0 +1,12 @@
+@import '../utilities/mixins';
+
+&__heading {
+    @include subheading();
+    text-align: left;
+    padding: 0 20px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+        letter-spacing: 1.5;
+    }
+}

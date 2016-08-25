@@ -1,0 +1,7 @@
+&__subheading {
+    @include subheading();
+    text-align: left;
+    padding: 20px 0 0;
+    text-transform: none;
+    margin-bottom: 0;
+}
