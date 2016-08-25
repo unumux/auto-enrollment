@@ -30,9 +30,8 @@
 @mixin subheading($font-size: 25px) {
     line-height: 1.5;
     letter-spacing: 1px;
-    text-align: center;
+    text-align:center;
     color: $orient;
     text-transform: uppercase;
-    padding: 0 20px;
     font-size: $font-size;
 }
