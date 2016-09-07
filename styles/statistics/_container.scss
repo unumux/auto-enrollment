@@ -1,4 +1,6 @@
 &__container {
+    @include contain();
+    
     @media screen and (min-width: 768px) {
         display: flex;
     }

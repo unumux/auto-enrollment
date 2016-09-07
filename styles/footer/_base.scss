@@ -1,0 +1,8 @@
+@mixin base() {
+    padding: 40px 20px;
+    @include contain();
+
+    @media screen and (min-width: 960px) {
+        padding: 40px 50px;
+    }
+}

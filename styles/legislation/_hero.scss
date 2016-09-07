@@ -1,8 +1,16 @@
 &__hero {
-    background-image: url('../maine-sailboats@3x.png'); // this is as close as I could get it so far....
+    background-image: url('../images/iStock_21721339_LARGE.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 75%;
     height: 600px;
-    padding: 100px 20px;
+    padding: 50px 10px;
+
+    &-container {
+        max-width: 1650px;
+        margin: 0 auto;
+        @media screen and (min-width: 1224px) {
+            display: flex;
+        }
+    }
 }

@@ -1,0 +1,19 @@
+&__container {
+    display: flex;
+    flex-wrap: wrap;
+    @include contain();
+    justify-content: space-between;
+}
+
+&__q-container {
+    background-color: $sea-green-lighter;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 18px 16px;
+}
+
+&__a-container {
+    padding: 18px 16px;
+    display: flex;
+}

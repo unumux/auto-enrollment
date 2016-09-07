@@ -1,0 +1,10 @@
+@mixin base() {
+    background-color: $background;
+    padding: 0 20px 40px;
+    @include contain();
+
+    @media screen and (min-width: 960px) {
+        position: relative;
+        padding: 50px 50px 40px;
+    }
+}

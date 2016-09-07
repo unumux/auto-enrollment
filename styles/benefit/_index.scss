@@ -1,0 +1,10 @@
+@import 'base';
+
+.benefit {
+    @include base();
+    @import 'heading';
+    @import 'property';
+    @import 'term';
+    @import 'detail';
+    @import 'item';
+}

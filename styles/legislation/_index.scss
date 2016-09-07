@@ -1,6 +1,8 @@
 @import '../utilities/mixins';
+@import './base';
 
 .legislation {
+    @include base();
     @import 'hero';
     @import 'heading';
     @import 'info';

@@ -1,0 +1,14 @@
+&__section {
+    border: 1px solid #05a5ae;
+    margin-top: 20px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        flex-basis: calc(50% - 10px);
+
+        // add margin to all elements after the first row, which has two elements 
+        &:nth-child(n+3) {
+            margin-top: 20px;
+        }
+    }
+}

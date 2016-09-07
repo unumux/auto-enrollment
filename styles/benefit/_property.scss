@@ -1,0 +1,15 @@
+&__property {
+
+    @media screen and (min-width: 650px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 960px) {
+        flex-wrap: nowrap;
+    }
+}
+
+&__property + &__property {
+    margin-top: 10px;
+}

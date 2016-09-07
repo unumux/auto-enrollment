@@ -1,0 +1,8 @@
+&__icon {
+    padding-left: 8px;
+    height: 12px;
+    
+    @media screen and (min-width: 960px) {
+        height: 18px;
+    }
+}

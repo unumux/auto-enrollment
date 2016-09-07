@@ -1,0 +1,38 @@
+&__header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+&__term--heading {
+    @include subheading();
+    display: none;
+    text-transform: none;
+    flex-basis: 33%;
+    margin: 0;
+    // background-color: tomato;
+    margin-left: 10px;
+    text-align: left;
+    padding: 5px;
+
+    
+    @media screen and (min-width: 960px) {
+        display: block;
+    }
+}
+
+&__heading {
+    @include subheading();
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: none;
+
+    @media screen and (min-width: 650px) {
+        flex: 1 1 100%;
+    }
+
+    @media screen and (min-width: 960px) {
+        text-align: right;
+        margin-right: 20px;
+    }
+}

@@ -4,4 +4,9 @@
     padding: 20px 0 0;
     text-transform: none;
     margin-bottom: 0;
+    font-weight: 100;
+
+    @media screen and (min-width: 1224px) {
+        font-size: 36px;
+    }
 }

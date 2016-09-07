@@ -1,0 +1,11 @@
+&__term {
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    color: #005488;
+    margin: 5px 0 0 5px;
+
+    @media screen and (min-width: 960px) {
+        display: none;
+    }
+}

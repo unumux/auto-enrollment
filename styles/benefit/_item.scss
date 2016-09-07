@@ -1,0 +1,28 @@
+&__item, &__item--double {
+    background-color: #dae3eb;
+    padding: 5px;
+
+    @media screen and (min-width: 650px) {
+        flex: 1 1 calc(50% - 5px);
+    }
+
+    @media screen and (min-width: 960px) {
+        flex: 1 1 100%;
+    }
+}
+
+&__item--double {
+    flex: 1 0 66.3%;  
+}
+
+&__item + &__item {
+    margin-top: 10px;
+    @media screen and (min-width: 650px) {
+        margin-top: 0;
+        margin-left: 10px
+    }
+
+    &--double {
+        background-color: #dae3eb;
+    }
+}

@@ -5,7 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding: 0 20px;
+
+    @media screen and (min-width: 960px) {
+        padding: 0 50px;
+    }
 
     &__primary {
         @include subheading();
@@ -17,14 +21,14 @@
 
     &__button {
         background-color: $orient;
-        padding: 20px;
+        padding: 15px;
         border-radius: 3px;
         width: 275px;
         cursor: pointer;
         border: none;
 
         @media screen and (min-width: 768px) {
-            width: 665px;
+            width: 500px;
         }
     }
 
@@ -35,24 +39,11 @@
         text-align: center;
 
         @media screen and (min-width: 768px) {
-            // font-size: 36px;
-            display: none;
-            &::after {
-                display: block;
-                font-family: Ubuntu;
-                content: attr(data-content);
-                visibility: visible;
-
-            }
+            font-size: 34px
         }
     }
+
+    &__icon {
+        padding-left: 8px;
+    }
 }
-
-
-        // @media screen and (min-width: 768px) {
-        //     width: 665px;
-        //     font-size: 36px;
-        //     visibility: hidden;
-        //     &::after {
-        //         content: attr(data-content);
-        //     }

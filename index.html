@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Auto-enrollment</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/site.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!--Title, Meta Keywords, and Meta Description tags should come from the current page -->
@@ -14,17 +15,19 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="../logo-unum-full-color.svg" alt="Unum Logo"/>
+        <img class="header__logo" src="images/logo-unum-full-color.svg" alt="Unum Logo"/>
     </header>
 
-        <div class="hero">
-            <h1 class="hero__heading">
-                auto-enrollment for disability plans
-            </h1>
-            <p class="hero__content">
-                Helping employees make the best choice
-            </p>
-        </div>
+        <section class="main-hero">
+            <div class="main-hero__container">
+                <h1 class="main-hero__heading">
+                    automatic enrollment for disability plans
+                </h1>
+                <p class="main-hero__content">
+                    Helping employees make the best choice
+                </p>
+            </div>
+        </section>
 
     <section class="statistics">
 
@@ -78,7 +81,7 @@
 
             <section class="obstacles-section">
                 <div class="obstacles__img-container">
-                    <img class="obstacles__img" src="./easy.svg" alt=""/>
+                    <img class="obstacles__img" src="../images/easy.svg" alt=""/>
                 </div>
                 <h3 class="obstacles__subheading">
                     It's easy.
@@ -90,7 +93,7 @@
 
             <section class="obstacles-section">
                 <div class="obstacles__img-container">
-                    <img  class="obstacles__img" src="./legal.svg" alt=""/>
+                    <img  class="obstacles__img" src="../images/legal.svg" alt=""/>
                 </div>
                 <h3 class="obstacles__subheading">
                     It's legal.
@@ -102,13 +105,13 @@
 
             <section class="obstacles-section">
                 <div class="obstacles__img-container">
-                    <img class="obstacles__img" src="./works.svg" alt=""/>
+                    <img class="obstacles__img" src="../images/works.svg" alt=""/>
                 </div>
                 <h3 class="obstacles__subheading">
                     It works.
                 </h3>
                 <p class="obstacles__para">
-                    When it's used with retirement plans, auto-enroll has been shown to double the number of employees who partcipate.<sup class="sup">4</sup>
+                    When it's used with retirement plans, auto-enroll has been shown to double the number of employees who participate.<sup class="sup">4</sup>
                 </p>
             </section>  
         </section>
@@ -118,18 +121,20 @@
     <section class="legislation">
 
         <section class="legislation__hero">
-            <h1 class="legislation__heading">
-                maine legislation leads the way.
-            </h1>
-            <p class="legislation__info">
-                New legislation in Maine encourages employers to automatically enroll employees in short and long term disability insurance, so more people can protect their income with this important coverage.
-            </p>
+            <div class="legislation__hero-container">
+                <h1 class="legislation__heading">
+                    maine legislation leads the way.
+                </h1>
+                <p class="legislation__info">
+                    New legislation in Maine<sup class="sup--white">6</sup> encourages employers to automatically enroll employees in short and long term disability insurance, so more people can protect their income with this important coverage.
+                </p>
+            </div>
         </section>
         
         <section class="legislation-container">
 
             <div class="legislation__section--one-third-order">
-                <img class="legislation__img-taxcredit" src="./tax-credit.svg" alt=""/>
+                <img class="legislation__img-taxcredit" src="../images/tax-credit.svg" alt=""/>
             </div>
 
             <section class="legislation__section--two-thirds">
@@ -149,7 +154,7 @@
         <section class="legislation-container">
 
             <section class="legislation__section--one-third">
-                <img class="legislation__img-calendar" src="./calendar.svg" alt=""/>
+                <img class="legislation__img-calendar" src="../images/calendar.svg" alt=""/>
             </section>
 
             <section class="legislation__section--two-thirds">
@@ -166,149 +171,151 @@
 
          </section>
 
-    </section>
-
-
-    <section class="benefit">
-
-        <section class="benefit-container">
-
-            <section class="benefit__section--two-thirds">
-                <h2 class="benefit__subheading">
+        <section class="legislation-container">
+            <section class="legislation__section--two-thirds">
+                <h2 class="legislation__subheading">
                     Which plans qualify?
                 </h2>
-                <p class="benefit__info ">
+                <p class="legislation__para ">
                     Employer-sponsored group disability plans established or reopened for enrollment after January 1, 2017 qualify under the law.
                 </p>
             </section>
-
-            <section class="benefit-chart">
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Income replacement
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            $200 per week
-                        </p>
-                    </div>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            long term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            50% of pre disability income*
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Benefit period
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            at least 6 months
-                        </p>
-                    </div>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            long term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            at least 24 months
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Elimination period
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            no longer than 30 days
-                        </p>
-                    </div>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            long term disability
-                        </p>
-                        <p class="benefit-item__info">
-                            no longer than 185 days
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Establishment date
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short and long term disability
-                        </p>
-                        <p class="benefit-item__info full-width">
-                            Estabished or reopened for enrollment after January 1, 2017
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Opt-out provision
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short and long term disability
-                        </p>
-                        <p class="benefit-item__info full-width">
-                            Must allow employees to opt-out
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Information requirements
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short and long term disability
-                        </p>
-                        <p class="benefit-item__info full-width">
-                            Must notify employees about coverage and opt-out process at least 30 days - and 10 days before their first payroll deduction
-                        </p>
-                    </div>
-                </div>
-
-                <div class="benefit-item">
-                    <h3 class="benefit-item__heading">
-                        Plan type
-                    </h3>
-                    <div class="benefit-item__container">
-                        <p class="benefit-item__term">
-                            short and long term disability
-                        </p>
-                        <p class="benefit-item__info full-width">
-                            Employer-sponsered group plan
-                        </p>
-                    </div>
-                </div>
-
-            </section>
         </section>
+        
+        <section class="benefit">
+
+            <header class="benefit__header">
+                <h1 class="benefit__term--heading">Short term disability</h1>
+                <h1 class="benefit__term--heading">Long term disability</h1>
+            </header>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Income replacement
+                </h3>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        short term disability
+                    </p>
+                    <p class="benefit__detail">
+                        $200 per week
+                    </p>
+                </div>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        50% of pre disability income*
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Benefit period
+                </h3>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        short term disability
+                    </p>
+                    <p class="benefit__detail">
+                        at least 6 months
+                    </p>
+                </div>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        at least 24 months
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Elimination period
+                </h3>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        short term disability
+                    </p>
+                    <p class="benefit__detail">
+                        no longer than 30 days
+                    </p>
+                </div>
+                <div class="benefit__item">
+                    <p class="benefit__term">
+                        long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        no longer than 185 days
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Establishment date
+                </h3>
+                <div class="benefit__item--double">
+                    <p class="benefit__term">
+                        short and long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        Established or reopened for enrollment after January 1, 2017
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Opt-out provision
+                </h3>
+                <div class="benefit__item--double">
+                    <p class="benefit__term">
+                        short and long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        Must allow employees to opt-out
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Information requirements
+                </h3>
+                <div class="benefit__item--double">
+                    <p class="benefit__term">
+                        short and long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        Must notify employees about coverage and opt-out process at least 30 days - and 10 days before their first payroll deduction
+                    </p>
+                </div>
+            </div>
+
+            <div class="benefit__property">
+                <h3 class="benefit__heading">
+                    Plan type
+                </h3>
+                <div class="benefit__item--double">
+                    <p class="benefit__term">
+                        short and long term disability
+                    </p>
+                    <p class="benefit__detail">
+                        Employer-sponsered group plan
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
     </section>
+
+    
 
         <section class="faq">
 
@@ -316,59 +323,64 @@
                 Frequently Asked Questions
             </h2>
 
-            <section class="faq-container">
+            <section class="faq__container">
 
-                <section class="faq-section">
+                <section class="faq__section">
                     <div class="faq__q-container">
-                        <div class="faq__letter">
-                            Q
-                        </div>
-                        <div class="faq__q">
+                        <img class="faq__letter" src="../images/q.svg" alt="Q"/>
+                        <p class="faq__q">
                             What if I prefer to let my employees choose?
-                        </div>
+                        </p>
                     </div>
                     <div class="faq__a-container">
+                        <img class="faq__letter" src="../images/a.svg" alt="A"/>
                         <p class="faq__a">
-                            <span class="faq__letter">A</span> Whether you require employees to opt in or opt out of coverage, they're making a choice. Employees are free to decline auto-enrolled insurance, and they can cancel their coverage at any time.
+                            Whether you require employees to opt in or opt out of coverage, they're making a choice. Employees are free to decline auto-enrolled insurance, and they can cancel their coverage at any time.
                         </p>
                     </div>
                 </section>
 
-                <section class="faq-section">
+                <section class="faq__section">
                     <div class="faq__q-container">
+                        <img class="faq__letter" src="../images/q.svg" alt="Q"/>
                         <p class="faq__q">
-                            <span class="faq__letter">Q</span> Do employees really need disability insurance?
+                            Do employees really need disability insurance?
                         </p>
                     </div>
                     <div class="faq__a-container">
+                        <img class="faq__letter" src="../images/a.svg" alt="A"/>
                         <p class="faq__a">
-                            <span class="faq__letter">A</span> Most Americans lack the savings to stay afloat without their paychecks. Research shows that 67% of U.S. workers would find it somewhat or very difficult to meet current financial obligations if their paycheck were delayed by one week. Long term disability customers who received benefit payments have told us that the coverage prevented more than 50% of them fro missing mortgage/rent payments, having to move out of their home, or missing other bills.
+                            Most Americans lack the savings to stay afloat without their paychecks. Research shows that 67% of U.S. workers would find it somewhat or very difficult to meet current financial obligations if their paycheck were delayed by one week. Long term disability customers who received benefit payments have told us that the coverage prevented more than 50% of them from missing mortgage/rent payments, having to move out of their home, or missing other bills.
                         </p>
                     </div>
                 </section>
 
-                <section class="faq-section">
+                <section class="faq__section">
                     <div class="faq__q-container">
+                        <img class="faq__letter" src="../images/q.svg" alt="Q"/>
                         <p class="faq__q">
-                            <span class="faq__letter">Q</span> What happens if an employee is enrolled, but doesn't want the coverage?
+                            What happens if an employee is enrolled, but doesn't want the coverage?
                         </p>
                     </div>
                     <div class="faq__a-container">
+                        <img class="faq__letter" src="../images/a.svg" alt="A"/>
                         <p class="faq__a">
-                        <span class="faq__letter">A</span> Employees can cancel their coverage at any time, just by notifying Unum. Compare that to the hassle of trying to enroll and employee who has missed open enrollment. Or the pain of talking to an employee who didn't enroll, but now can't pay the bills due to missed work after an injury or illness.
+                            Employees can cancel their coverage at any time, just by notifying Unum. Compare that to the hassle of trying to enroll and employee who has missed open enrollment. Or the pain of talking to an employee who didn't enroll, but now can't pay the bills due to missed work after an injury or illness.
                         </p>
                     </div>
                 </section>
 
-                <section class="faq-section">
+                <section class="faq__section">
                     <div class="faq__q-container">
+                        <img class="faq__letter" src="../images/q.svg" alt="Q"/>
                         <p class="faq__q">
-                        <span class="faq__letter">Q</span> Does auto-enroll increase our administrative burden?
+                            Does auto-enroll increase our administrative burden?
                         </p>
                     </div>
                     <div class="faq__a-container">
+                        <img class="faq__letter" src="../images/a.svg" alt="A"/>
                         <p class="faq__a">
-                            <span class="faq__letter">A</span> Not at all. In fact, auto-enroll makes enrollment easier for employers AND employees. And with Unum, you'll have all the resources you need to fulfill requirements like those set forth in the Maine legislation. Because we were able to provide input to this law, we unerstand Maine's legislation better than any other provider.
+                            Not at all. In fact, auto-enroll makes enrollment easier for employers AND employees. And with Unum, you'll have all the resources you need to fulfill requirements like those set forth in the Maine legislation. Because we were able to provide input to this law, we unerstand Maine's legislation better than any other provider.
                         </p>
                     </div>
                 </section>
@@ -382,8 +394,9 @@
                 interested in offering auto-enrolled plans with unum?
             </p>
             <button class="contact__button">
-                <a class="contact__link" href="#" data-content="Contact your Unum representative >">
-                Contact your Unum Rep >
+                <a class="contact__link" href="http://www.unum.com/FindFieldOffice/PortlandME" data-content="Contact your Unum representative">
+                Contact an expert
+                    <img class="contact__icon" src="../images/caret.svg" alt=""/>
                 </a>
             </button>
         </footer>

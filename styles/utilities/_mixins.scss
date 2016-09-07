@@ -35,3 +35,8 @@
     text-transform: uppercase;
     font-size: $font-size;
 }
+
+@mixin contain ($max-width: 1650px) {
+    margin: 0 auto;
+    max-width: $max-width;
+}

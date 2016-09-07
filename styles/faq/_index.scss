@@ -1,0 +1,10 @@
+@import 'base';
+
+.faq {
+    @include base();
+    @import 'container';
+    @import 'heading';
+    @import 'section';
+    @import 'letter';
+    @import 'q-and-a';
+}

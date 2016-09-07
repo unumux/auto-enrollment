@@ -1,0 +1,11 @@
+&__detail {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #005488;
+    font-family: Open Sans;
+    margin: 5px;
+    
+    @media screen and (min-width: 960px) {
+        width: 100%;
+    }
+}

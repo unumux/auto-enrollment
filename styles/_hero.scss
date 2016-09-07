@@ -1,56 +1,62 @@
-.hero {
-    background-image: url('../buoys-image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 406px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 20px;
-}
+.main-hero {
+    // background-image: url('../iStock_8293279_LARGE-mobile.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center 30%;
+    // height: 406px;
+    // display: flex;
+    // justify-content: flex-start;
+    // flex-direction: column;
+    // padding: 40px 20px;
 
-@media screen and (min-width: 768px) {
+    // @media screen and (min-width: 500px) { // changes at 600px.... WHYY???
+    //     background-image: url('../iStock_8293279_LARGE.jpg');
+    // }
 
-    .hero {
-        height: 600px;
-        padding: 0 150px;
+    // @media screen and (min-width: 768px) {
+    //     height: 600px;
+    //     padding: 50px 80px;
+    // }
+
+    // &__container {
+    //     max-width: 1650px;
+    // }
+
+    &__heading {
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #fff;
+        text-transform: uppercase;
+        
+        @media screen and (min-width: 768px) {
+            font-size: 48px;
+            letter-spacing: 2.5px;
+            line-height: 1;
+        }
+
+        @media screen and (min-width: 1600px) {
+            font-size: 50px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__content {
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: #fff;
+        margin-top: 0;
+        font-weight: 300;
+        
+        @media screen and (min-width: 768px) {
+            font-size: 36px;
+        }
+
+        @media screen and (min-width: 1600px) {
+            font-size: 45px;
+        }
     }
 }
-
-.hero__heading {
-    font-family: Ubuntu;
-    font-size: 30px;
-    line-height: 1.5;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) {
-
-    .hero__heading {
-        font-size: 50px;
-        letter-spacing: 2.5px;
-        line-height: 1.3;
-    }
-}
-
-.hero__content {
-    font-family: Ubuntu;
-    font-size: 23px;
-    line-height: 1.4;
-    letter-spacing: 1px;
-    color: #fff;
-    margin-top: 0;
-    font-weight: 300;
-}
-
-@media screen and (min-width: 768px) {
-
-    .hero__content {
-        font-size: 36px;
-    }
-}
-
-

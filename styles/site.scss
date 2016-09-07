@@ -1,15 +1,14 @@
 @import './utilities/vars';
 @import './utilities/mixins';
-@import 'header';
-@import 'hero';
+@import 'header/index';
+@import 'main-hero/index';
 @import 'statistics/index';
 @import 'obstacles/index';
-@import 'main';
-@import './legislation/index';
-@import './benefit/main';
-@import './faq/main';
-@import './contact/contact';
-@import './footer/footer';
+@import 'legislation/index';
+@import 'benefit/index';
+@import 'faq/index';
+@import 'contact/index';
+@import 'footer/index';
 
 * {
     box-sizing: border-box;
@@ -32,4 +31,14 @@ body {
 ul {
     padding: 0;
     margin: 0;
+}
+
+.sup {
+    color: $font-color-gray;
+    font-size: 8px;
+
+    &--white {
+        color: white;
+        font-size: 8px;
+    }
 }

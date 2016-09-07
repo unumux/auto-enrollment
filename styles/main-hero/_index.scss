@@ -1,0 +1,8 @@
+@import 'base';
+
+.main-hero {
+    @include base();
+    @import 'container';
+    @import 'heading';
+    @import 'content';
+}
