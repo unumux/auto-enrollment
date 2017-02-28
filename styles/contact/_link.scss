@@ -7,4 +7,16 @@
     @media screen and (min-width: 768px) {
         font-size: 34px
     }
+
+    &--header {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-size: .75rem;
+
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+        }
+    }
 }
