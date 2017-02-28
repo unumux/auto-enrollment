@@ -1,0 +1,29 @@
+@import '../utilities/vars';
+
+@mixin base() {
+    //  margin: 0 auto;
+    //  padding: 2rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    // margin-top: 3rem;
+
+    @media screen and (min-width: 768px) {
+        // height: 50%;
+        // width: 50%;
+        // flex-basis: auto;
+        // flex-grow: 0;
+        // flex-shrink: 1;
+        // margin-left: 3rem;
+        max-width: 50rem;
+        padding-top: 5rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+        // padding-top: 175px;
+        margin-top: initial;
+        // flex-basis: auto;
+        // flex-grow: 0;
+        // flex-shrink: 1;
+    }
+}

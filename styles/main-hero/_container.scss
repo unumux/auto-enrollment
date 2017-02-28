@@ -1,3 +1,9 @@
+
 &__container {
-    text-align: left;
+    margin: 0 auto;
+    max-width: 1650px;
+
+    @media all and (min-width: 1600px) {
+        padding: 20px 80px;
+    }
 }

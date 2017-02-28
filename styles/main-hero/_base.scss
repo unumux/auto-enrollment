@@ -1,20 +1,27 @@
 @mixin base() {
-    background-image: url('../images/iStock_8293279_LARGE-mobile.jpg');
+    // background-image: url('../images/iStock_8293279_LARGE-mobile.jpg');
+    background: linear-gradient(308.08deg, #265B80 0%, #005189 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 30%;
-    height: 406px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    height: 450px;
+    // display: flex;
+    // justify-content: flex-start;
+    // flex-direction: column;
     padding: 40px 20px;
+    text-align: center;
 
     @media screen and (min-width: 500px) {
-        background-image: url('../images/iStock_8293279_LARGE.jpg');
+        // background-image: url('../images/iStock_8293279_LARGE.jpg');
+        height: 600px;
     }
 
     @media screen and (min-width: 768px) {
-        height: 600px;
+        height: 800px;
         padding: 50px 80px;
+    }
+
+    @media all and (min-width: 1200px) {
+        flex-direction: row;
     }
 }
