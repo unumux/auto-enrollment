@@ -7,3 +7,11 @@
     @import 'link';
     @import 'icon';
 }
+
+#contact {
+    @include base();
+    @import 'primary';
+    @import 'button';
+    @import 'link';
+    @import 'icon';
+}
