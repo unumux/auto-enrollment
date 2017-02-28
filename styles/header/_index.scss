@@ -3,4 +3,5 @@
 .header {
     @include base();
     
+    @import 'logo';
 }
